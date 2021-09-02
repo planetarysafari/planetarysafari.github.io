@@ -6870,7 +6870,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	postiion: relative;
+	position: relative;
 	margin: -2.5em 0 0 -2.5em;
 }
 
@@ -6985,6 +6985,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 
 			.tiles article > a h2 {
 				margin: 0;
+				color: #ffffff;
 			}
 
 			.tiles article > a .content {
