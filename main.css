@@ -7665,7 +7665,6 @@ details[open] summary span.icon {
 /* Style for the job title */
 .test-highlight .title {
     float: left; /* To make it appear on the left side */
-    font-weight: bold;
 }
 
 /* Style for the dates */
@@ -7678,4 +7677,10 @@ details[open] summary span.icon {
 .test-highlight .keypoints {
     list-style-type: disc;
 	text-align: justify;
+}
+
+
+/* Style for the report */
+.test-highlight .report {
+    font-style: italic;
 }
