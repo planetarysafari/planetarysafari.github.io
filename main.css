@@ -7627,51 +7627,49 @@ details[open] summary span.icon {
 /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* 
 
 
-/* Base styles for the job highlight container */
-.test-highlight {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    background-color: #f9f9f9;
-}
-
 /* Style for the first line container */
-.line1 {
+.test-highlight .line1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0; /* Add this to remove margin */
 }
 
 /* Style for the company name */
-.company {
+.test-highlight .company {
+	float: left; /* To make it appear on the left side */
     font-weight: bold;
-    color: purple;
+    color: #7681e2; /* #7794ce;*/
 }
 
 /* Style for the place */
-.place {
-    color: gray;
+.test-highlight .place {
+	float: right; /* To make it appear on the right side */
+    font-weight: bold;
 }
 
 /* Style for the second line container */
-.line2 {
+.test-highlight .line2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin: 0; /* Add this to remove margin */
 }
 
 /* Style for the job title */
-.title {
+.test-highlight .title {
+    float: left; /* To make it appear on the left side */
     font-weight: bold;
 }
 
 /* Style for the dates */
-.dates {
-    color: gray;
+.test-highlight .dates {
+    color: #808080;
+    float: right; /* To make it appear on the right side */
 }
 
 /* Style for the key point list */
-.keypoints {
+.test-highlight .keypoints {
     list-style-type: disc;
-    margin-left: 20px;
+	text-align: justify;
 }
