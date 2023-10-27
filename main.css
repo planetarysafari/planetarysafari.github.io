@@ -7577,12 +7577,12 @@ details[open] summary span.icon {
 
 
   /* Base styles for the job highlight container */
-.job-highlight {
-    /*border: 1px solid #ddd; */
-    padding: 10px;
+/* .job-highlight {
+    border: 1px solid #ddd;
+    padding: 10px; 
     margin: 10px;
-    /*background-color: #f9f9f9; */
-}
+    background-color: #f9f9f9; 
+} */
 
 /* Style for the company name */
 .job-highlight .company {
@@ -7616,6 +7616,5 @@ details[open] summary span.icon {
 /* Style for the key point list */
 .job-highlight .keypoints {
     list-style-type: disc;
-    margin-left: 20px;
 	text-align: justify;
 }
