@@ -7633,7 +7633,21 @@ details[open] summary span.icon {
     justify-content: space-between;
     align-items: center;
     margin: 0; /* Add this to remove margin */
+	padding: 0; /* Remove or reduce padding */
+	line-height: 1; /* Experiment with different values like 1 or 0.8 */
 }
+
+/* Style for the second line container */
+.test-highlight .line2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 0; /* Remove or reduce padding */
+	line-height: 1; /* Experiment with different values like 1 or 0.8 */
+    /* margin: 0; /* Add this to remove margin */
+	margin-top: -10px; /* Experiment with negative margin value */
+}
+
 
 /* Style for the company name */
 .test-highlight .company {
@@ -7646,14 +7660,6 @@ details[open] summary span.icon {
 .test-highlight .place {
 	float: right; /* To make it appear on the right side */
     font-weight: bold;
-}
-
-/* Style for the second line container */
-.test-highlight .line2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin: 0; /* Add this to remove margin */
 }
 
 /* Style for the job title */
