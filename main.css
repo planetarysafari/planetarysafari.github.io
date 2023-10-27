@@ -7341,6 +7341,11 @@ body.is-preload .items.onload-fade-in > * > .inner {
 		
 		.image.rounded img {
 			border-radius: 50%;
+			height: 200px;
+		}
+
+		.image.rounded2 img {
+			border-radius: 50%;
 			width: auto;
 			height: 200px;
 		}
