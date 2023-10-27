@@ -7362,6 +7362,11 @@ body.is-preload .items.onload-fade-in > * > .inner {
 			border-radius: 50%;
 		}
 
+		.image.prounded77 img {
+			width: 77px;
+			height: 77px;
+			border-radius: 50%;
+		}
 
 
 
