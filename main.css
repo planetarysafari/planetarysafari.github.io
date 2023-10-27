@@ -7634,7 +7634,7 @@ details[open] summary span.icon {
     align-items: center;
     margin: 0; /* Add this to remove margin */
 	padding: 0; /* Remove or reduce padding */
-	line-height: 0.51; /* Experiment with different values like 1 or 0.8 */
+	line-height: 1; /* Experiment with different values like 1 or 0.8 */
 }
 
 /* Style for the second line container */
