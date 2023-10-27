@@ -7345,9 +7345,15 @@ body.is-preload .items.onload-fade-in > * > .inner {
 			height: 200px;
 		}
 
-		.image.prounded img {
+		.image.prounded48 img {
 			width: 48px;
 			height: 48px;
+			border-radius: 50%;
+		}
+
+		.image.prounded63 img {
+			width: 63px;
+			height: 63px;
 			border-radius: 50%;
 		}
 
