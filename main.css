@@ -7573,3 +7573,50 @@ details[open] summary span.icon {
 	display: none;
   }
   */
+
+
+
+  /* Base styles for the job highlight container */
+.job-highlight {
+    /*border: 1px solid #ddd; */
+    padding: 10px;
+    margin: 10px;
+    /*background-color: #f9f9f9; */
+}
+
+/* Style for the company name */
+.company {
+	float: left; /* To make it appear on the left side */
+    font-weight: bold;
+    color: #7681e2; /* #7794ce;*/
+}
+
+/* Style for the place, country */
+.place {
+	float: right; /* To make it appear on the right side */
+    font-weight: bold;
+}
+
+/* Style for the report */
+.report {
+    font-style: italic;
+}
+
+/* Style for the job title */
+.title {
+    float: left; /* To make it appear on the left side */
+    margin-right: 10px;
+}
+
+/* Style for the date */
+.date {
+    color: #808080;
+    float: right; /* To make it appear on the right side */
+}
+
+/* Style for the key point list */
+.keypoints {
+    list-style-type: disc;
+    margin-left: 20px;
+	text-align: justify;
+}
