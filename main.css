@@ -7585,37 +7585,37 @@ details[open] summary span.icon {
 }
 
 /* Style for the company name */
-.company {
+.job-highlight .company {
 	float: left; /* To make it appear on the left side */
     font-weight: bold;
     color: #7681e2; /* #7794ce;*/
 }
 
 /* Style for the place, country */
-.place {
+.job-highlight .place {
 	float: right; /* To make it appear on the right side */
     font-weight: bold;
 }
 
 /* Style for the report */
-.report {
+.job-highlight .report {
     font-style: italic;
 }
 
 /* Style for the job title */
-.title {
+.job-highlight .title {
     float: left; /* To make it appear on the left side */
     margin-right: 10px;
 }
 
 /* Style for the date */
-.date {
+.job-highlight .date {
     color: #808080;
     float: right; /* To make it appear on the right side */
 }
 
 /* Style for the key point list */
-.keypoints {
+.job-highlight .keypoints {
     list-style-type: disc;
     margin-left: 20px;
 	text-align: justify;
