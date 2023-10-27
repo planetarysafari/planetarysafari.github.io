@@ -1801,7 +1801,7 @@ input, select, textarea {
 	form select,
 	form textarea {
 		position: relative;
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		display: block;
 		border: 0;
 		outline: 0;
@@ -7338,6 +7338,12 @@ body.is-preload .items.onload-fade-in > * > .inner {
 				margin: 0 auto;
 				width: auto;
 			}
+		
+		.image.rounded img {
+			border-radius: 50%;
+			width: auto;
+			height: 200px;
+		}
 
 
 
