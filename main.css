@@ -7618,3 +7618,60 @@ details[open] summary span.icon {
     list-style-type: disc;
 	text-align: justify;
 }
+
+
+
+
+
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* 
+
+
+/* Base styles for the job highlight container */
+.test-highlight {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Style for the first line container */
+.line1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the company name */
+.company {
+    font-weight: bold;
+    color: purple;
+}
+
+/* Style for the place */
+.place {
+    color: gray;
+}
+
+/* Style for the second line container */
+.line2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the job title */
+.title {
+    font-weight: bold;
+}
+
+/* Style for the dates */
+.dates {
+    color: gray;
+}
+
+/* Style for the key point list */
+.keypoints {
+    list-style-type: disc;
+    margin-left: 20px;
+}
