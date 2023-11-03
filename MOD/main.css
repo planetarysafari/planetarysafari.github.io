@@ -1,0 +1,90 @@
+.chooseLang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+}
+.chooseLang div {
+  height: 60px;
+  position: relative;
+  width: 144px;
+}
+.lang {
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  position: absolute;
+  opacity: 0;
+  left: 48px;
+  top: 0;
+  -webkit-transition: 0.76s;
+  -o-transition: 0.76s;
+  transition: 0.76s;
+  width: 40px;
+}
+
+/*
+.fr-lang {
+  background-image: url()}
+.open .fr-lang {
+  left: -48px;
+  top: 10px;
+  opacity: 1;
+}
+.en-lang {
+  background-image: url()}
+.open .en-lang {
+  left: 0;
+  top: 10px;
+  opacity: 1;
+}
+.es-lang {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggc3R5bGU9ImZpbGw6I0ZGREE0NDsiIGQ9Ik0wLDI1NmMwLDMxLjMxNCw1LjYzMyw2MS4zMSwxNS45MjMsODkuMDQzTDI1NiwzNjcuMzA0bDI0MC4wNzctMjIuMjYxQzUwNi4zNjcsMzE3LjMxLDUxMiwyODcuMzE0LDUxMiwyNTZzLTUuNjMzLTYxLjMxLTE1LjkyMy04OS4wNDNMMjU2LDE0NC42OTZMMTUuOTIzLDE2Ni45NTdDNS42MzMsMTk0LjY5LDAsMjI0LjY4NiwwLDI1NnoiLz48Zz48cGF0aCBzdHlsZT0iZmlsbDojRDgwMDI3OyIgZD0iTTQ5Ni4wNzcsMTY2Ljk1N0M0NTkuOTA2LDY5LjQ3MywzNjYuMDcxLDAsMjU2LDBTNTIuMDk0LDY5LjQ3MywxNS45MjMsMTY2Ljk1N0g0OTYuMDc3eiIvPjxwYXRoIHN0eWxlPSJmaWxsOiNEODAwMjc7IiBkPSJNMTUuOTIzLDM0NS4wNDNDNTIuMDk0LDQ0Mi41MjcsMTQ1LjkyOSw1MTIsMjU2LDUxMnMyMDMuOTA2LTY5LjQ3MywyNDAuMDc3LTE2Ni45NTdIMTUuOTIzeiIvPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48L3N2Zz4=);
+}
+.open .es-lang {
+  left: 48px;
+  top: 10px;
+  opacity: 1;
+}
+*/
+
+
+
+
+.fr-lang {
+  background-image: url(/gallerie/lang/fr.png);
+}
+.open .fr-lang {
+  left: -48px;
+  top: 10px;
+  opacity: 1;
+}
+
+.en-lang {
+  background-image: url(/gallerie/lang/eng.png);
+}
+.open .en-lang {
+  left: 0;
+  top: 10px;
+  opacity: 1;
+}
+
+.es-lang {
+  background-image: url(/gallerie/lang/es.png);
+}
+.open .es-lang {
+  left: 48px;
+  top: 10px;
+  opacity: 1;
+}
+
+
+.chooseLang .chosen {
+  opacity: 1;
+  z-index: 1;
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <title>MOD - Reportages</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+    <style>
+		
+		
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    .w3-bar-block .w3-bar-item {padding:20px}
+	
+	
+	/* Three columns side by side */
+	.column3 {
+	  float: left;
+	  width: 33.3%;
+	  margin-bottom: 16px;
+	  padding: 0 8px;
+	}
+	
+	/* 2 columns side by side */
+	.column2 {
+	  float: left;
+	  width: 50%;
+	  margin-bottom: 16px;
+	  padding: 0 8px;
+	}
+	
+	/* Display the columns below each other instead of side by side on small screens */
+	@media screen and (max-width: 650px) {
+	  .column2, .column3 {
+	    width: 100%;
+	    display: block;
+	  }
+	}
+	
+	.avatar img {
+	  border-radius: 50%;
+	}
+	
+	/* Some left and right padding inside the container */
+	.container {
+	  padding: 0 16px;
+	}
+
+	/* Clear floats */
+	.container::after, .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+	
+	.portrait{max-width:100%;height:1500;overflow:hidden}img{vertical-align:middle}a{color:inherit}
+	
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">&times;</a>
+  <a href="#portraits" onclick="w3_close()" class="w3-bar-item w3-button">Portraits</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">À propos</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-light-grey w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16 w3-medium">
+		<a href="mod.html"> Français</a> <br> <a href="mod_eng.html">English </a>
+	</div>
+    <div class="w3-center w3-padding-16">Photo Reportages</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px" id="portraits">
+
+
+<hr>
+
+<p> Texte de contextualisation, expliquant le but du projet. ETC...
+</p>
+
+<hr>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+	<h3>Portraits</h3><br>
+    <div class="w3-quarter">
+      <img src="gallerie/ocean.jpeg" alt="Tortue" style="width:100%">
+      <h3>Madame Ocean</h3>
+      <p>Biologiste marine<br> Plongeuse <br> Maman</p>
+      <p>voir plus ></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="gallerie/terre.jpeg" alt="Meduses" style="width:100%">
+      <h3>Madame Terre</h3>
+      <p> Prof de Sédimento <br> Archéologue <br> Randonneuse</p>
+      <p>+</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="gallerie/volcan.jpeg" alt="Requin" style="width:100%">
+      <h3>Madame Volcan</h3>
+      <p> CDT <br> Magma <br> Photographe</p>
+      <p>+</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="gallerie/eco.png" alt="Eagle Ray" style="width:100%">
+      <h3>Madame Microéconomie</h3>
+      <p>Prof d'Économie <br> Pâtisserie <br> Maman</p>
+      <p>+</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+		<div class="portrait">
+			<img src="gallerie/4.png" alt="Dauphin" style="width:100%">
+      	</div>
+		<h3>#4</h3>
+		<p>"Je dis merci à la vie, je chante la vie, je danse la vie."</p>
+		<p>+</p>
+    </div>
+    <div class="w3-quarter">
+		<div class="portrait">
+			<img src="gallerie/3.jpeg" alt="sea lion" style="width:100%">
+		</div>
+		<h3>#3</h3>
+		<p>"Et pourquoi pas? Je suis tout aussi capable. "</p>
+		<p>+</p>
+    </div>
+    <div class="w3-quarter">
+		<div class="portrait">
+      	  <img src="gallerie/2.jpeg" alt="manta" style="width:100%">
+		</div>
+      <h3>#2</h3>
+      <p>"Ce n'est pas toujours simple d'être une badass au quotidien"</p>
+	  <p>+</p>
+    </div>
+	<div class="w3-quarter">
+		<div class="portrait">
+			<img src="gallerie/1.png" alt="baleine" style="width:100%">
+		</div>
+		<h3>#1</h3>
+		<p>"Je suis fière de ma carrière, les hauts comme les bas"</p>
+		<p>+</p>
+	</div>
+  </div>
+  
+  
+	<p> NOTE : Pour l'instant les photo ne sont pas mise a la meme echelle de boite contenante mais je voudrais avoir tjr un meme boite type protrait si jamais l'image d'origine n'a pas la meme taille de base. pour simplifier et ne pas avoir a verifier si l'image est aux bonnes dimensions. </p>
+	
+	<p> Chaque bloc image sera clickable avec hover qui grise l'image et donne le nom de la personne, et qui emmene a l'article perso. Test page pour une article a venir. </p>
+  
+  
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- Team Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>L'équipe derrière ce projet</h3><br>
+	<img src="gallerie/doudou.JPG" alt="Doudou" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+	
+	<br>
+	
+	<div class="column2">
+		<div class="avatar">
+			<img src="gallerie/MOD.jpg" alt="MOD" style="width:100%">
+			<div class="container">
+				<h2>Marie-Octavie Davin</h2>
+				<p class="title">Fondatrice</p>
+				<p>Passion pour la science, la photo et les volcans.</p>
+				<p>example@example.com</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="column2">
+		<div class="avatar">
+			<img src="gallerie/CC.jpg" alt="CC" style="width:100%">
+			<div class="container">
+				<h2>Camila Cesar</h2>
+				<p class="title">Web Dev & Design</p>
+				<p>Passion pour l'océan, la photo et le thé.</p>
+				<p>example@example.com</p>
+			</div>
+		</div>
+	</div>
+				  
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third" id="contact">
+      <h3>FOOTER</h3>
+      <p>Test Page accueil</p>
+      <p>Made with love </p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>Contact</h3>
+      <p>
+        Adresse <br> Email
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+function sidebar_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+
+function sidebar_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+
+</script>
+
+</body>
+</html>
